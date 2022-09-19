@@ -315,6 +315,10 @@ footer {
     .welcome-review .review {
       padding: 30px;
       border: 4px solid #1E1E1E; }
+  .welcome-contact {
+    padding: 100px 15px 100px 15px; }
+    .welcome-contact p {
+      padding-bottom: 30px; }
   footer {
     padding: 30px; }
     footer p {
