@@ -446,13 +446,28 @@ footer {
 
     .about {
         padding: 100px 15px 100px 15px;
+        h2 {
+            text-align: center;
+        }
 
         img {
+            margin-top: 30px;
             width: 100%;
+        }
+    }
+
+    .values {
+        padding: 0px 15px 100px 15px;
+        h2 {
+            text-align: center;
+        }
+
+        hr {
+            display: none;
         }
 
         p {
-            padding-top: 25px;
+            padding-bottom: 30px;
         }
     }
 
@@ -483,6 +498,11 @@ footer {
 
     .projects {
         padding: 100px 15px 100px 15px;
+        justify-content: center;
+
+        h2 {
+            text-align: center;
+        }
 
         .card {
             padding: 10px;
@@ -523,16 +543,18 @@ footer {
 
     .work-experience {
         padding: 0px 15px 100px 15px;
+        h2 {
+            text-align: center;
+        }
         
         h4 {
             padding-bottom: 30px;
             
         }
-
         .jobs {
             padding: 30px;
             border: 4px solid #1E1E1E;
-            margin-top: 30px;
+            margin-bottom: 30px;
         }
     }
 
