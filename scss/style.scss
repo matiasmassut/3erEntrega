@@ -14,6 +14,8 @@ li {
     font-family: 'Syne', sans-serif;
     font-size: 16px;
     font-weight: 800;
+
+
 }
 
 main {
@@ -29,6 +31,16 @@ main {
         font-size: 48px;
         font-weight: 800;
         padding-bottom: 30px;
+    }
+
+    .outline {
+            color: white;
+            text-shadow:
+                3px 3px 0 #1e1e1e,
+              -1px -1px 0 #1e1e1e,  
+               1px -1px 0 #1e1e1e,
+               -1px 1px 0 #1e1e1e,
+                1px 1px 0 #1e1e1e;
     }
     
     h2 {
@@ -87,13 +99,19 @@ footer {
         display: inline-block !important;
         a {
             color: #ffffff !important;
+
+            &:hover {
+                color: #A0ECFF !important;
+                font-size: 18px;
+                transition: 0.2s;
+            }
         }
     }
 
     main {
 
         .welcome-home {
-            padding: 200px 150px 200px 150px;
+            padding: 150px 150px 200px 150px;
 
             p {
                 padding-bottom: 25px;
@@ -145,13 +163,21 @@ footer {
             a {
                 text-align: center;
                 padding-top: 50px;
+                &:hover {
+                    font-size: 22px;
+                    transition: 0.2s;
+                }
             }
     
 
             .card {
                 padding: 50px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
                 border-radius: 0px;
+                &:hover {
+                    background: #fffaa3;
+                    transition: 0.5s;
+                }
                 
                 h4 {
                     padding-bottom: 300px;
@@ -171,12 +197,16 @@ footer {
             a {
                 text-align: center;
                 padding-top: 50px;
+                &:hover {
+                    font-size: 22px;
+                    transition: 0.2s;
+                }
             }
     
 
             .card {
                 padding: 50px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
                 border-radius: 0px;
                 margin-bottom: 50px;
                 
@@ -185,6 +215,35 @@ footer {
                 }
 
             }
+            
+            .projects-1 {
+                &:hover {
+                    background: #A0ECFF;
+                    transition: 0.5s;
+                }
+            }
+
+            .projects-2 {
+                &:hover {
+                    background: #FFD28A;
+                    transition: 0.5s;
+                }
+            }
+
+            .projects-3 {
+                &:hover {
+                    background: #CEFE9D;
+                    transition: 0.5s;
+                }
+            }
+
+            .projects-4 {
+                &:hover {
+                    background: #FED7FA;
+                    transition: 0.5s;
+                }
+            }
+            
         }
 
         .welcome-process {
@@ -203,7 +262,7 @@ footer {
 
             .process {
                 padding: 50px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
                 margin-top: 50px;
             }
 
@@ -230,7 +289,7 @@ footer {
 
             .jobs {
                 padding: 50px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
                 margin-top: 50px;
             }
 
@@ -249,7 +308,7 @@ footer {
 
             .review {
                 padding: 50px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
             }
 
         }
@@ -282,7 +341,7 @@ footer {
             }
 
             hr {
-                border: 2px solid #1e1e1e;
+                border: 4px solid #1e1e1e;
             }
         }
     }
@@ -308,6 +367,10 @@ footer {
     .navbar-nav {
         a {
             color: #ffffff !important;
+            &:hover {
+                color: #A0ECFF !important;
+                transition: 0.2s;
+            }
         }
     }
 
@@ -317,7 +380,7 @@ footer {
         padding: 0px !important;
     
         h1 {
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 800;
         }
         
@@ -398,7 +461,7 @@ footer {
 
         .card {
             padding: 10px;
-            border: 2px solid #1E1E1E ;
+            border: 4px solid #1E1E1E ;
             border-radius: 0px;
             margin-top: 30px;
 
@@ -423,7 +486,7 @@ footer {
 
         .card {
             padding: 10px;
-            border: 2px solid #1E1E1E ;
+            border: 4px solid #1E1E1E ;
             border-radius: 0px;
             margin-bottom: 30px;
 
@@ -453,7 +516,7 @@ footer {
 
         .process {
             padding: 30px;
-            border: 2px solid #1E1E1E;
+            border: 4px solid #1E1E1E;
             margin-top: 30px;
         }
     }
@@ -468,7 +531,7 @@ footer {
 
         .jobs {
             padding: 30px;
-            border: 2px solid #1E1E1E;
+            border: 4px solid #1E1E1E;
             margin-top: 30px;
         }
     }
@@ -484,7 +547,7 @@ footer {
 
             .review {
                 padding: 30px;
-                border: 2px solid #1E1E1E;
+                border: 4px solid #1E1E1E;
             }
     }
 
